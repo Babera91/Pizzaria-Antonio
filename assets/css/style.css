@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Abril Fatface';
+}
+
+header{
+    background-color: #362009;
+    
+
+}
+#logo{
+    width: 60%;
+    margin-left:10%;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    margin-top: 3%;
+    width: 70%;
+}
+a{
+    
+    text-decoration: none;
+    color:white;
+    font-size: 1.5em;
+    justify-content: space-between;
+}
+a:first-of-type{
+    margin-right: 3%;
+    margin-left:40%;
+}
+a:nth-last-of-type(2){
+    margin-right: 2%;
+}
+a:nth-last-of-type(3){
+    margin-right: 2%;
+}
+#backgroundImg{
+    width: 100%;
+    
+}
+
+main div a{
+    color:black;
+    background-color: #362009;
+    padding:0% 3%;
+    border-radius: 51px;
+}
+article{
+    display:flex;
+}
+article h2{
+    font-size: 3em;
+    margin-top: 4%;
+    margin-left: 5%;
+}
+article p{
+    margin-top: 10%;
+    margin-right: 20%;
+    margin-left:2%;
+    font-size: 1.5em;
+}
+#button{
+    margin-top: -3%;
+    margin-right: 50%;
+    
+}
+#button a{
+    color:white;
+}
+#button2{
+    color: white;
+}
+#pictures{
+    margin-top: 5%;
+}
+#all{
+    margin-top:10%;
+  
+}
+#all div:first-of-type{
+    background-color: #362009;
+    padding: 0% 15% 0% 10%;
+    color: white;
+    line-height: 4em;
+    font-size: 2em;
+}
+#all div:last-of-type{
+    border: #362009 solid;
+    padding: 0% 15% 0% 10%;
+    margin-right: 40%;
+    padding-right: 40%;
+    line-height: 3em;
+    font-size: 2em;
+
+}
+#all a{
+    font-size: 1em;
+    padding: 1% 5% 1% 5%;
+}
+footer section{
+    color: #362009;
+    display: flex;
+}
+#Impressum{
+    padding-top: 0.5%;
+    margin-left:2%;
+}
+#Datenschutz{
+    padding-top: 0.5%;
+    margin-left: -20%;
+}
+#FOLLOW{
+    margin-right: 2%;
+}
+#FOLLOW a img{
+width: 5%;
+margin-right: 10%;
+
+}
+#FOLLOW p{
+    padding-top: 1.5%;
+}
